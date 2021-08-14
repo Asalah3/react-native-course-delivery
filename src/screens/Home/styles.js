@@ -2,10 +2,11 @@ import { StyleSheet } from "react-native"
 export default StyleSheet.create(
     {
        container:{
-           flex:1,
-           justifyContent:"center",
-           alignItems:"center",
-           width:"100%"
-       } 
+           paddingHorizontal:24,
+       },
+       contentContainer:{
+           paddingHorizontal:16,
+           paddingVertical:14,
+       },
     }
 )
